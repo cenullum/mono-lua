@@ -6,7 +6,7 @@ inputs:
     default: "3.5-stable"
   lua-branch:
     description: Branch from lua repo to download from
-    default: "v1.1-stable"
+    default: "Version 1.0 Stable Release"
 runs:
   using: "composite"
   steps:
