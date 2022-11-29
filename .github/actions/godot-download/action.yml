@@ -3,10 +3,10 @@ description: Download and extract the Godot source code for use in compiling
 inputs:
   version:
     description: Version of Godot source code to download
-    default: "3.5-stable"
+    default: "3.4.4-stable"
   lua-branch:
     description: Branch from lua repo to download from
-    default: "Version 1.0 Stable Release"
+    default: "v1.1-stable"
 runs:
   using: "composite"
   steps:
